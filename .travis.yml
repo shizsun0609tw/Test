@@ -26,7 +26,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: e1f26ac8-e2a5-4361-b963-427bca39311c
   app: test-cicd01
   on:
     repo: shizsun0609tw/Test

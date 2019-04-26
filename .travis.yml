@@ -22,3 +22,13 @@ script: true
  # Another command/method to run tests
 script: 
   - python TestCalculator.py
+
+deploy:
+  providor: shizsun
+  api_key:
+    secure: e1f26ac8-e2a5-4361-b963-427bca39311c
+  app: test-cicd01
+  on:
+    repo: shizsun0609tw/Test
+  run:
+    "web: gunicorn app_run:app"

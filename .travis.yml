@@ -24,7 +24,7 @@ script:
   - python TestCalculator.py
 
 deploy:
-  provider: shizsun0609tw
+  provider: Zhen-Hua Chen
   api_key:
     secure: e1f26ac8-e2a5-4361-b963-427bca39311c
   app: test-cicd01
